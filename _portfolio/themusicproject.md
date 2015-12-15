@@ -1,13 +1,13 @@
 ---
 layout: post
-title: BlocFlix
-thumbnail-path: "img/blocflix.png"
+title: TheMusicProject
+thumbnail-path: "img/the-music-project-1.png"
 short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocflix.png)
+![]({{ site.baseurl }}/img/the-music-project-1.png)
 
 ## Explanation
 
