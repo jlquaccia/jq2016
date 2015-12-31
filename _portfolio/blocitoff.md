@@ -11,26 +11,34 @@ short-description: A self-destructing to-do list application.
 
 ## Summary
 
+Blocitoff is an app not only designed to help out with your daily tasks, it acts as a motivation enhancer and a procrastination diminisher.  Upon submitting a task to complete, 7 days are given to accomplish what you said that you were going to do.  If you don't complete a task within one week then that task will be removed from your list.  It may not have been as important to you as you thought.
+
+{% highlight ruby %}
+namespace :todo do
+  desc "Delete items older than seven days"
+  task delete_items: :environment do
+    Item.where("created_at <= ?", Time.now - 7.days).destroy_all
+  end
+end
+{% endhighlight %}
+> <div class="small">Rake task automated to count the remaining days left for a task.</div>
+
 ## Explanation
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Blocitoff was the first real hands-on project that I built from scratch that revolved around Rails full-stack web development.  I learned how to automate rake tasks and utilize Ajax within a Rails application.  Blocitoff is 100% responsive and all of the styling was done by me.
 
 ## Problem
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Ever say you are going to do something but don't?  Do you try to stay organized but end up reverting back to your old ways in the end?  Procrastination is a serious problem now and has been for generations.
 
 ## Solution
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+With Blocitoff you can get your tasks done and stay motivated knowing that each task has a limited amount of time to be completed.  This makes checking things off your todo list fun and ultimately makes you a better person for living up to your word.
 
 ## Results
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-> Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
-
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+The results were quite positive.  Although Blocitoff is a very simple web application it was received well by the users that tested on.
 
 ## Conclusion
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+Blocitoff works because it helps to motivate and organize your daily routine.  I feel the rake automation greatly enhances the experience and prompts the user to try harder.  This project has taught me a lot about Rails and has strengthened my fundamental knowledge as web developer that I will surely carry forward with me in the future.

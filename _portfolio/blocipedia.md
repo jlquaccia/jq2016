@@ -27,7 +27,7 @@ Blocipedia simplifies the process of sharing knowledge online.  Users have the a
 
 ## Results
 
-Blocipedia has been proven to be simple and intuitive to use.
+Blocipedia has been proven to be simple and intuitive to use and is fully responsive.
 
 ## Conclusion
 
