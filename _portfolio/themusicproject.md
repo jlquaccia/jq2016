@@ -1,13 +1,15 @@
 ---
 layout: post
 title: TheMusicProject
-thumbnail-path: "img/the-music-project-1.png"
-short-description: BlocFlix is a Netflix replica for finding the best movies and watching them online.
+thumbnail-path: "img/the-music-project.png"
+short-description: A place where you can listen to, learn about and buy tickets to watch your favorite artists. 
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/the-music-project-1.png)
+![]({{ site.baseurl }}/img/the-music-project-2.png)
+
+## Summary
 
 ## Explanation
 
