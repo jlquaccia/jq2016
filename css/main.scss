@@ -38,3 +38,16 @@ article p img {
 .underline {
   text-decoration: underline;
 }
+
+.about_social_icons {
+  li {
+    display: inline-block;
+    float: right;
+  }
+}
+
+.picture_wrapper {
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 70px;
+}

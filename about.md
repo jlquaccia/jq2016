@@ -5,12 +5,14 @@ permalink: /about/
 feature-img: "img/color.png"
 ---
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+<div class="picture_wrapper">
+  <img src="{{ site.baseurl }}/img/snow-cam.jpg" alt="">
+</div>
 
-Jowl sirloin doner shank flank. Leberkas ham ball tip, jowl pastrami short loin pork cow. Rump ground round chuck leberkas shank picanha bacon meatloaf filet mignon. Ball tip swine brisket jowl pig sausage corned beef leberkas pastrami porchetta kevin beef. Ground round tail cupim ribeye, landjaeger meatloaf pig prosciutto. Shank sirloin porchetta frankfurter kevin corned beef ribeye rump doner. Shankle pork loin beef prosciutto short loin venison, ribeye swine kevin pastrami landjaeger ham hock alcatra sirloin ground round.
+Hi, my names Jason, but you can call me Jay.  I'm from San Carlos, CA and am absolutely passionate about coding.  I'm currently halfway through my enrollment with Bloc, an online dev bootcamp based in San Francisco, CA.  I'm pursuing their full stack web developer track and am pushing hard to be ready for a jr level developer role by the end of it all.  I was also enrolled in a frontend web development course in the summer of 2014 with Thinkful and have been self taught everywhere else in between.  When I'm not developing code, I love the outdoors, snowboarding, reading, being a musical connoisseur, going to shows, trying new restaurants, netflixing and putting sriracha on everything.  Ah.
 
-Pork chop pork belly bresaola, turducken porchetta sausage cupim pork loin bacon pancetta. Meatloaf tail frankfurter pork belly chicken. Turducken pork prosciutto, pork chop hamburger spare ribs jerky salami leberkas meatball. Tenderloin porchetta strip steak jerky, spare ribs beef ribs pork chop tail short loin sausage. Doner biltong andouille ribeye corned beef. Prosciutto boudin corned beef pork loin tail, ham picanha biltong chicken alcatra. Hamburger frankfurter bacon tail jowl filet mignon rump brisket turducken.
+If you'd like to get to know me a little better you can check out my [resume]() or simply click on one of the fine links to the right. 
 
-Biltong landjaeger swine pork sausage chicken cow cupim ham hock corned beef. Salami alcatra turkey doner rump, ribeye turducken frankfurter pork loin. Alcatra fatback strip steak, frankfurter beef ribs tail pork loin. Jerky shankle filet mignon beef ribs ham, swine sausage sirloin brisket picanha alcatra bresaola.
-
-Short ribs ham hock jerky, sausage beef ribs shoulder beef landjaeger rump sirloin leberkas flank turkey alcatra. Andouille pancetta cupim fatback sirloin landjaeger corned beef turducken tri-tip turkey capicola spare ribs. Chuck hamburger alcatra pig tongue, filet mignon rump bresaola. Porchetta corned beef alcatra beef ribs. Ham hock boudin picanha salami tri-tip ham.
+<ul class="about_social_icons">
+  {% include icons.html %}
+</ul>

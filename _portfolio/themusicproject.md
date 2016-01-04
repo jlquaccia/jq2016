@@ -11,7 +11,7 @@ short-description: A place where you can listen to, learn about and buy tickets 
 
 ## Summary
 
-The Music Project was designed to be a one-stop-shop for all of your band (or groupie) needs.  You can listen to popular tracks by your favorite artists, checkout related artists, keep up with news about what your favorite band has been up to and even see if they are playing in your hometown soon.
+The Music Project was designed to be a one-stop-shop for all of your band (or groupie) needs.  You can listen to popular tracks by your favorite artists, checkout related artists, keep up with news about what your favorite band has been up to and even see if they are playing in your hometown.
 
 ## Explanation
 
@@ -19,7 +19,7 @@ This project was intended to appeal to every demographic.  I wanted to create a 
 
 ## Problem
 
-I have always felt that the main problem with a lot of music applications out there was content.  Several apps may appear cool and exciting but this means very little if core content is lacking.  If a user wants to find a concert to go to this weekend they would like the piece of mind of knowing that the concerts being suggested to them cover the <span class="underline">**entire**</span> scope of upcoming shows that weekend, not just what is relative to the content on the site only.
+I have always felt that the main problem with a lot of music applications out there was content.  Several apps may appear cool and exciting but this means very little if core content is lacking.  If a user wants to find a concert to go to this weekend they would like the peace of mind of knowing that the concerts being suggested to them cover the <span class="underline">**entire**</span> scope of upcoming shows that weekend within their area, not just what is relative to the content on the site only.
 
 ## Solution
 
@@ -29,8 +29,8 @@ The solution to this problem is taking existing content on the web and centrally
 
 ## Results
 
-My friends were my main focus group for this.  The feedback that I recieved was very positive.  The app was depicted as very easy to use and a great tool to utilize.
+My friends were my main focus group for this.  The feedback that I received was very positive.  The app was depicted as very easy to use and a great tool to utilize.
 
 ## Conclusion
 
-One of the major lessons I took away from this project was that it is very easy, and time-consuming, to get carried away with adding more and more features to a web application.  Next time I think I will limit the list of features to what is necessary and not desired.  I learned a tremendous amount about API's and working with arrays and hashes.  I hadn't realized just how easy it was to utilize an API with the power of Ruby on Rails.  Google has become my best friend and greatest resource I could ever have at my fingertips.  I have been more active on StackOverflow as a result of this project, and overall much better at seeking out solutions to the endless sea of questions that I constantly try to tread water in.  This experiance has been eye-opening and truly valuable.  I am nowhere near the developer I aspire to be one day but I can say with confidence that I have grown immensely from this project and am well on my way meeting my goal.
+One of the major lessons I took away from this project was that it is very easy, and time-consuming, to get carried away with adding more and more features to a web application.  Next time I think I will limit the list of features to what is necessary and not desired.  I learned a tremendous amount about API's and working with arrays and hashes.  I hadn't realized just how easy it was to utilize an API with the power of Ruby on Rails.  Google has become my best friend and greatest resource.  I have been more active on StackOverflow as a result of this project, and overall much better at seeking out solutions to the endless sea of questions that I constantly try to tread water in.  This experience has been eye-opening and truly valuable.  I am nowhere near the developer I hope to be one day but I can say with confidence that I have grown immensely from this project and am well on my way toward my aspirations.
