@@ -93,6 +93,15 @@ h4.co_h4_two {
   letter-spacing: 5px;
 }
 
+.call-out ul li a {
+  color: #000;
+}
+
+.triangle_overflow_hidden {
+  position: relative;
+  overflow: hidden;
+}
+
 // Diamonds
 .diamond {
   height: 150px;
@@ -114,6 +123,15 @@ h4.co_h4_two {
   left: 400px;
 }
 
-.call-out ul li a {
-  color: #000;
+// Triangle
+#triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 400px solid transparent;
+  border-right: 440px solid lighten(grey, 20%);
+  border-bottom: 400px solid transparent;
+  position: absolute;
+  transform: rotate(-133deg);
+  right: -80px;
+  top: 30px;
 }
