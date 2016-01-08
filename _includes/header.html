@@ -1,41 +1,40 @@
-<header class="site-header">
-	<section>
-    <nav class="site-nav cl-effect-1" id="cl-effect-1">
-      <ul>
-        <li>
-          <a class="page-link" href="/">
-            Home
-          </a>
-        </li>
-        <li>
-          <a class="page-link" href="/about">
-            About
-          </a>
-        </li>
-        <li>
-          <a class="page-link" href="/contact">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </section>
+<div class="container-fluid">
+  <div class="diamond"></div>
+  <div class="diamond2"></div>
+  <header class="site-header">
+    <section class="nav_links">
+      <nav class="site-nav cl-effect-1" id="cl-effect-1">
+        <ul>
+          <li><a class="page-link" href="/">Home</a></li>
+          <li><a class="page-link" href="/about">About</a></li>
+          <li><a class="page-link" href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
 
-	{% if site.theme.header_text %}
-  <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
-  	<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
-      <br>
-      <img src="img/selfie.jpg" alt="Jason Quaccia" class="selfie">
-		</h1>
-		<div class="divider"></div>
-    {{ site.theme.header_text }}
-    <div class="divider"></div>
-    <!-- Social icons from Font Awesome, if enabled -->
-	  <ul>
-	    {% include icons.html %}
-		</ul>
-  </div>
-  {% endif %}
-</header>
+    <div class="row">
+      <div class="col-md-6">
+        {% if site.theme.header_text %}
+        <div class="call-out header_text" style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+          <h1>Hi I'm Jason, but you can call me Jay.</h1>
+          <h4 class="co_h4_one">Creative and witty Rails developer.</h4>
+          <h4 class="co_h4_two">Let's be social.</h4>
+          <!-- Social icons from Font Awesome, if enabled -->
+          <ul class="social">
+            {% include icons.html %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-md-6 text-center">
+        {% if site.theme.header_text %}
+          <h1 class="site-title">
+            <div class="selfie_wrapper">
+              <img src="img/selfie.jpg" alt="Jason Quaccia" class="selfie img-responsive animated fadeInLeft">
+            </div>
+          </h1>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+</div>

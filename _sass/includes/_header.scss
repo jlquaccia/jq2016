@@ -1,8 +1,9 @@
 .site-header {
   @extend %padding-small;
-  background: $brand-color;
+  background: url('../img/tree_bark.png');
   display: inline-block;
   width: 100%;
+  padding-bottom: 100px;
 
   a {
     color: $header-link-color;
