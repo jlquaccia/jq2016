@@ -18,10 +18,6 @@
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
-  max-height: 360px;
-  width: 48%;
   height: auto;
   background: #3085a3;
   text-align: center;
@@ -93,7 +89,7 @@
 /*-----------------*/
 
 figure.effect-apollo {
-  background: #3498db;
+  background: #000;
 }
 
 figure.effect-apollo img {
@@ -124,12 +120,17 @@ figure.effect-apollo p {
   bottom: 0;
   margin: 3em;
   padding: 0 1em;
-  max-width: 150px;
+  max-width: 400px;
   border-right: 4px solid #fff;
   text-align: right;
   opacity: 0;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
+}
+
+.tmp_p {
+  max-width: 700px !important;
+  font-size: 20px !important;
 }
 
 figure.effect-apollo h2 {
@@ -149,6 +150,13 @@ figure.effect-apollo:hover figcaption::before {
 
 figure.effect-apollo:hover p {
   opacity: 1;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+figure.effect-apollo:hover h2 {
+  background-color: #000;
+  color: #FFF;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
