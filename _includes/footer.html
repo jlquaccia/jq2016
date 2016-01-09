@@ -2,6 +2,20 @@
 
 {% if site.theme.footer_text %}
 <footer class="site-footer">
-  <p class="text">{{ site.theme.footer_text }}</p>
+  <a href="/" class="top scrollup">Top</a>
 </footer>
 {% endif %}
+
+<script>
+  $(document).ready(function() {
+    
+    // animate a smooth scroll to the top
+    $('.scrollup').click(function() {
+      $("html, body").animate({
+        scrollTop: 0
+      }, 600);
+      return false;
+    });
+    
+  });
+</script>
