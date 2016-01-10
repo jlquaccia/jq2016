@@ -166,13 +166,15 @@ h4.co_h4_two {
   text-decoration: line-through;
 }
 
-.top {
+.footer_back_to_top {
   border: 1px solid #000;
   padding: 10px;
   color: #000;
   color: #FFF;
   transition: all .3s;
   text-transform: lowercase;
+  position: absolute;
+  right: 40px;
 
   &:hover {
     background-color: #FFF;
