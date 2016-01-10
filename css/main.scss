@@ -175,9 +175,70 @@ h4.co_h4_two {
   text-transform: lowercase;
   position: absolute;
   right: 40px;
+  margin-top: -15px;
 
   &:hover {
     background-color: #FFF;
     color: #000;
+  }
+}
+
+.delay_point_3s {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.delay_point_5s {
+  -webkit-animation-delay: .5s;
+  -moz-animation-delay: .5s;
+  animation-delay: .5s; 
+}
+
+// About Page
+
+.about_page {
+  h1 {
+    background-color: transparent;
+  }
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.call-out .mb58 {
+  margin: 1.5em auto 58.5px;
+  background-color: rgba(255,255,255,1);
+}
+
+.about_social_icons {
+  a {
+    color: #000;
+  }
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.about_main_content {
+  font-size: 15px;
+}
+
+// Thank You Page
+
+.thank_you_content {
+  background-color: #FFF;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+
+  p {
+    margin-bottom: 0;
+    border: 2px solid;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
   }
 }
