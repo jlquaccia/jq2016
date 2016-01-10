@@ -45,6 +45,9 @@
 .posts {
   .post-header {
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 100;
   }
   .post-teaser {
     @media (max-width:768px) {

@@ -1,12 +1,12 @@
 .site-footer {
-  @extend %padding-regular;
+  padding: 2% 20%;
   display: inline-block;
   text-align: center;
   width: 100%;
   color: lighten($text-color, 30%);
   font-size: 0.9em;
   background-color: #B3B3B3;
-  margin-top: 74.062px;
+  margin-top: 32px;
   
   ul {
     margin:0 0 1em;

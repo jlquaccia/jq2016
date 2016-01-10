@@ -25,6 +25,12 @@ article p img {
   margin: 30px auto 0;
 }
 
+p {
+  line-height: 1.66;
+  font-size: 18px;
+  font-weight: 100;
+}
+
 .selfie {
   max-width: 200px;
   border: 10px solid #FFF;
@@ -153,11 +159,13 @@ h4.co_h4_two {
 }
 
 .work_title {
-  font-family: "Playfair Display",serif;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 100;
 }
 
 .posts_margin {
-  margin-top: 57.312px;
+  // margin-top: 57.312px;
 }
 
 .post-link {
@@ -168,7 +176,7 @@ h4.co_h4_two {
 
 .footer_back_to_top {
   border: 1px solid #000;
-  padding: 10px;
+  padding-top: 5px;
   color: #000;
   color: #FFF;
   transition: all .3s;
@@ -176,6 +184,8 @@ h4.co_h4_two {
   position: absolute;
   right: 40px;
   margin-top: -15px;
+  width: 30px;
+  height: 30px;
 
   &:hover {
     background-color: #FFF;
@@ -193,6 +203,12 @@ h4.co_h4_two {
   -webkit-animation-delay: .5s;
   -moz-animation-delay: .5s;
   animation-delay: .5s; 
+}
+
+.post_header_title {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 5px;
+  font-weight: 100;
 }
 
 // About Page
@@ -241,4 +257,114 @@ h4.co_h4_two {
     margin: 0 auto;
     padding: 10px;
   }
+}
+
+// Contact Page
+
+.post-content {
+  .contact_h3, form {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 100;
+  }
+}
+
+.post-content form input[type="text"], .post-content form input[type="email"], .post-content form textarea {
+  border-radius: 0;
+  border: none;
+}
+
+// Contact Page Submit Button
+
+/* To Navigation Style */
+
+// important
+.container > section p {
+  position: relative;
+  z-index: 1;
+}
+
+.no_pl {
+  padding-left: 0;
+}
+
+/* General button style (reset) */
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Button 1 */
+.btn-1 {
+  border: 3px solid #F5613B;
+  color: #000;
+}
+
+/* Button 1e */
+.btn-1e {
+  overflow: hidden;
+}
+
+.btn-1e:after {
+  width: 100%;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-1e:hover,
+.btn-1e:active {
+  color: #F5613B;
+}
+
+.btn-1e:hover:after {
+  height: 260%;
+  opacity: 1;
+}
+
+.btn-1e:active:after {
+  height: 400%;
+  opacity: 1;
 }
