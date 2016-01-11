@@ -12,7 +12,7 @@ layout: default
         <div class="grid">
 
           <!-- The Music Project -->
-          <div class="col-md-12">
+          <div class="col-md-12 not_for_mobile">
             <figure class="effect-apollo tmp_description">
               <img src="img/artist_recommendations.png" alt="The Music Project"/>
               <figcaption>
@@ -21,11 +21,19 @@ layout: default
                 <p class="tmp_p no_mobile_allowed">A place where you can listen to, learn about and buy tickets to watch your favorite artists.</p>
               </figcaption>
             </figure>
+            
+          </div>
+
+          <div class="col-md-12 not_for_desktop">
+            <h2 class="project_titles">The Music Project</h2>
+            <a href="/portfolio/2016-1-6-themusicproject/"><img src="img/artist_recommendations.png" alt="The Music Project"/></a>
             <p class="no_desktop_allowed">A place where you can listen to, learn about and buy tickets to watch your favorite artists.</p>
           </div>
 
+          <div class="anticlearfix"></div>
+
           <!-- Blocitoff -->
-          <div class="col-md-6">
+          <div class="col-md-6 not_for_mobile">
             <figure class="effect-apollo">
               <img src="img/blocitoff.png" alt="Blocitoff"/>
               <figcaption>
@@ -34,22 +42,38 @@ layout: default
                 <a href="/portfolio/blocitoff/">View more</a>
               </figcaption>     
             </figure>
+            
+          </div>
+
+          <div class="col-md-12 not_for_desktop">
+            <h2 class="project_titles">Blocitoff</h2>
+            <a href="/portfolio/blocitoff/"><img src="img/blocitoff.png" alt="Blocitoff"/></a>
             <p class="no_desktop_allowed">A self-destructing to-do list application.</p>
           </div>
+
+          <div class="anticlearfix"></div>
           
           <!-- Blocipedia -->
-          <div class="col-md-6">
+          <div class="col-md-6 not_for_mobile">
             <figure class="effect-apollo">
               <img src="img/blocipedia.png" alt="Blocipedia"/>
               <figcaption>
                 <h2 class="project_titles">Blocipedia</h2>
                 <p class="no_mobile_allowed">A production quality SaaS app that allows users to create their own wikis.</p>
                 <a href="/portfolio/blocipedia/">View more</a>
-              </figcaption>     
+              </figcaption>
             </figure>
+            
+          </div>
+
+          <div class="col-md-12 not_for_desktop">
+            <h2 class="project_titles">Blocipedia</h2>
+            <a href="/portfolio/blocipedia/"><img src="img/blocipedia.png" alt="Blocipedia"/></a>
             <p class="no_desktop_allowed">A production quality SaaS app that allows users to create their own wikis.</p>
           </div>
         </div>
+
+        <div class="anticlearfix"></div>
 
       </div>
     </div>
@@ -102,3 +126,11 @@ layout: default
     {% endif %}
   </div>
 </div>
+
+<script>
+  $(window).resize(function() {
+    if ($(window).width() <= 800) {
+      $(".anticlearfix").addClass("clearfix");
+    }
+  });
+</script>

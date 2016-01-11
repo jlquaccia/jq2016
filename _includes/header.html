@@ -16,7 +16,9 @@
       top: -80%;
     }
   </style>
-  <div id="parallax1" class="parallaxParent">
+  <!-- <div id="parallax1" class="parallaxParent no_mobile_parallax"> -->
+  <!-- this is because i was having problems with parallax scrolling on mobile -->
+  <div>
     <div class="container-fluid triangle_overflow_hidden no_p_mobile">
       <!-- <div class="diamond"></div>
       <div class="diamond2"></div>
@@ -62,12 +64,20 @@
   </div>
 </section>
 
+<!-- this is because i was having problems with parallax scrolling on mobile -->
 <script>
-  // init controller
-  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+// $(window).resize(function() {
+//   if ($(window).width() <= 800) {
+//     $(".no_mobile_parallax").removeClass("parallaxParent");
+//   }
+// });
 
-  // build scenes
-  new ScrollMagic.Scene({triggerElement: "#parallax1"})
-          .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
-          .addTo(controller);
+
+//   // init controller
+//   var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+//   // build scenes
+//   new ScrollMagic.Scene({triggerElement: "#parallax1"})
+//           .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
+//           .addTo(controller);
 </script>

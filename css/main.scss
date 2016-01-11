@@ -238,7 +238,7 @@ h4.co_h4_two {
   background-color: #FFF;
   padding: 5px 0;
   width: 70%;
-  margin: auto;
+  margin: 10px auto 20px;
   float: right;
 }
 
@@ -443,6 +443,16 @@ h4.co_h4_two {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .not_for_desktop {
+    display: none;
+  }
+
+  .no_desktop_allowed {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .content {
     padding-left: 0;
@@ -456,10 +466,8 @@ h4.co_h4_two {
   .posts_padding {
     padding: inherit;
   }
-}
 
-@media screen and (min-width: 550px) {
-  .no_desktop_allowed {
+  .not_for_mobile {
     display: none;
   }
 }
@@ -484,6 +492,7 @@ h4.co_h4_two {
   .project_titles, figure.effect-apollo .tmp_p {
     font-size: 10px;
     width: 80%;
+    letter-spacing: 1px;
   }
 
   .no_mobile_allowed {
