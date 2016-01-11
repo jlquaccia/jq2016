@@ -198,7 +198,7 @@ h4.co_h4_two {
 
 .footer_back_to_top {
   border: 1px solid #000;
-  padding-top: 5px;
+  padding-top: 2px;
   color: #000;
   color: #FFF;
   transition: all .3s;
@@ -208,6 +208,7 @@ h4.co_h4_two {
   margin-top: 35px;
   width: 30px;
   height: 30px;
+  font-size: 15px;
 
   &:hover {
     background-color: #FFF;
@@ -309,6 +310,7 @@ h4.co_h4_two {
 .container > section p {
   position: relative;
   z-index: 1;
+  text-align: left;
 }
 
 .no_pl {
