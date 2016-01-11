@@ -7,7 +7,7 @@ short-description: A place where you can listen to, learn about and buy tickets 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/the-music-project-2.png)
+![]({{ site.baseurl }}/img/the-music-project.png)
 
 ## Summary
 

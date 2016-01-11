@@ -1,9 +1,9 @@
 .site-header {
   @extend %padding-small;
-  background: url('../img/tree_bark.png');
   display: inline-block;
   width: 100%;
   padding-bottom: 100px;
+  background-image: url('../img/polygon-background3.jpg');
 
   a {
     color: $header-link-color;
