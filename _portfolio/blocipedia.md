@@ -9,6 +9,10 @@ short-description: A production quality SaaS app that allows users to create the
 {:.center}
 ![]({{ site.baseurl }}/img/blocipedia-2.png)
 
+<div class="text-center cl-effect-1">
+  <a href="https://jason-quaccia-blocipedia.herokuapp.com" class="page-link">View Project</a>
+</div>
+
 ## Summary
 
 Wikipedia is universal, and to be able to build a replica for one of my first projects is incredible.  Blocipedia allows users to create and collaborate on their own wikis privately or publicly.

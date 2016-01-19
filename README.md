@@ -1,15 +1,5 @@
-# Portfolio Kami Theme
-## Based on Type Theme
+# My 2016 Portfolio
 
-![Default Type Theme blog](https://bloc-global-assets.s3.amazonaws.com/portfolio/portfolio-kami.png)
+Here lies my 2016 portfolio.  Another year gone by and another year's worth of programming knowledge absorbed, most notably Ruby on Rails.  Powered by Jekyll, my new and revamped portfolio showcases my most amibitous projects to date.
 
-A free and open-source [Jekyll](http://jekyllrb.com) theme. Great for blogs and easy to customize.
-
-## Get Started
-
-[Demo](http://madebymunsters.github.io/Lannister/)
-
-[Using Type](https://rohanchandra.github.io/project/type/)
-
-## License
-The MIT License (MIT)
+You can visit my site at [http://jasonquaccia.com](http://jasonquaccia.com).  If you're feeling chatty, drop a line and I'll get back to you.

@@ -9,6 +9,10 @@ short-description: A self-destructing to-do list application.
 {:.center}
 ![]({{ site.baseurl }}/img/blocitoff-2.png)
 
+<div class="text-center cl-effect-1">
+  <a href="https://jason-quaccia-blocitoff.herokuapp.com" class="page-link">View Project</a>
+</div>
+
 ## Summary
 
 Blocitoff is an app not only designed to help out with your daily tasks, it acts as a motivation enhancer and a way to diminish procrastination.  Upon submitting a task to complete, 7 days are given to accomplish what you said that you were going to do.  If you don't complete a task within one week then that task will be removed from your list.  It may not have been as important to you as you thought.

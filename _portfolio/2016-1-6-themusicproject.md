@@ -9,6 +9,10 @@ short-description: A place where you can listen to, learn about and buy tickets 
 {:.center}
 ![]({{ site.baseurl }}/img/the-music-project.png)
 
+<div class="text-center cl-effect-1">
+  <a href="https://el-proyecto-de-la-musica.herokuapp.com" class="page-link">View Project</a>
+</div>
+
 ## Summary
 
 The Music Project was designed to be a one-stop-shop for all of your band (or groupie) needs.  You can listen to popular tracks by your favorite artists, checkout related artists, keep up with news about what your favorite band has been up to and even see if they are playing in your hometown.
