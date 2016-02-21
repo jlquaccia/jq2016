@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Markitoff
-thumbnail-path: "img/blocitoff.png"
+thumbnail-path: "img/markitoff.png"
 short-description: A self-destructing to-do list application.
 
 ---
 
 {:.center}
-![]({{ site.baseurl }}/img/blocitoff-2.png)
+![]({{ site.baseurl }}/img/markitoff2.png)
 
 <div class="text-center cl-effect-1">
   <a href="https://jason-quaccia-blocitoff.herokuapp.com" class="page-link">View Project</a>
